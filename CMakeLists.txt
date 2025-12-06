@@ -31,6 +31,6 @@ elseif(${CMAKE_BUILD_TYPE} STREQUAL "Release")
     add_compile_options(-O2 -DNDEBUG)
 endif()
 
-add_subdirectory(${CMAKE_SOURCE_DIR}/src/gl45)
-add_subdirectory(${CMAKE_SOURCE_DIR}/src/vk10)
+add_subdirectory(${CMAKE_SOURCE_DIR}/src/lr/gl45)
+add_subdirectory(${CMAKE_SOURCE_DIR}/src/lr/vk10)
 add_subdirectory(${CMAKE_SOURCE_DIR}/test)
